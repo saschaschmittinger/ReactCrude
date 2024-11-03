@@ -3,7 +3,10 @@ export default function Navbar({ onOpen }) {
     <>
       <div className="navbar bg-base-100">
         <div className="navbar-start">
-          <a className="btn btn-ghost text-xl">SSC Consult</a>
+          <img src="logo.svg" alt="logo" className="mr-1 w-6 h-6" />
+          <a className="text-xl">
+            <span className="text-[#915eff]">Sascha</span> Schmittinger
+          </a>
         </div>
         <div className="navbar-center">
           <div className="form-control">
